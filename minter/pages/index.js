@@ -106,13 +106,15 @@ export default function Home() {
   };
 
   return (
-    <div className='m-2'>
+    <div className='m-2 space-y-8'>
       <Head>
         <title>Team Tree</title>
         <meta name='description' content='Create your moments as NFTs' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Toaster />
+
+      <img src='/big-header.png' alt='' srcset='' />
 
       {nftUrl && (
         <div className='text-center text-white m-4'>
@@ -123,12 +125,13 @@ export default function Home() {
           </a>
         </div>
       )}
-
-      <img src='/planting-seeds.gif' />
+      <div className='max-w-sm mx-auto'>
+        <img className='mx-auto' src='/planting-seeds.gif' />
+      </div>
 
       <p className='text-white text-center text-2xl pt-2'>Mint TeamTree NFTs</p>
 
-      <p>
+      <p className='text-white text-center text-2xl pt-2'>
         Whatever we earn from this collection, 90% will be donated to the{" "}
         <a href='https://teamtrees.org/'>TeamTrees.org</a>
       </p>
