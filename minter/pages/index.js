@@ -114,7 +114,7 @@ export default function Home() {
       </Head>
       <Toaster />
 
-      <img src='/big-header.png' alt='' srcset='' />
+      <img src='/big-header.png' alt='' />
 
       {nftUrl && (
         <div className='text-center text-white m-4'>
