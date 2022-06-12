@@ -124,8 +124,13 @@ export default function Home() {
         </div>
       )}
 
-      <p className='text-white text-center text-2xl pt-2'>
-        Make NFTs Like Pros
+      <img src='/planting-seeds.gif' />
+
+      <p className='text-white text-center text-2xl pt-2'>Mint TeamTree NFTs</p>
+
+      <p>
+        Whatever we earn from this collection, 90% will be donated to the{" "}
+        <a href='https://teamtrees.org/'>TeamTrees.org</a>
       </p>
 
       <div className='max-w-sm mx-auto text-center mt-8 text-xl font-medium '>
