@@ -118,7 +118,7 @@ export default function Home() {
         <div className='text-center text-white m-4'>
           <a
             className='text-lg font-medium  text-white cursor-pointer underline'
-            href={`https://testnets.opensea.io/assets/${NFT_CONTRACT_ADDRESS}/${1}`}>
+            href={`https://testnet.snowtrace.io/address/${NFT_CONTRACT_ADDRESS}/`}>
             Here is your NFT ➡️
           </a>
         </div>
